@@ -1,0 +1,26 @@
+diff --git a/node_modules/@graphql-yoga/common/index.js b/node_modules/@graphql-yoga/common/index.js
+index 84d596a..57cb814 100644
+--- a/node_modules/@graphql-yoga/common/index.js
++++ b/node_modules/@graphql-yoga/common/index.js
+@@ -365,7 +365,7 @@ function useHealthCheck(options) {
+     };
+ }
+ 
+-const graphiqlHTML = "<!doctype html><html lang=en><meta charset=utf-8><title>__TITLE__</title><link href=https://www.graphql-yoga.com/favicon.ico rel=icon><link href=https://unpkg.com/@graphql-yoga/graphiql/dist/style.css rel=stylesheet><body class=no-focus-outline id=body><noscript>You need to enable JavaScript to run this app.</noscript><div id=root></div><script type=module>import{renderYogaGraphiQL as r}from\"https://unpkg.com/@graphql-yoga/graphiql\";r(root,__OPTS__);</script>";
++const graphiqlHTML = "<!doctype html><html lang=en><meta charset=utf-8><title>__TITLE__</title><link href=https://www.graphql-yoga.com/favicon.ico rel=icon><link href=https://unpkg.com/@graphql-yoga/graphiql@2.4.0/dist/style.css rel=stylesheet><body class=no-focus-outline id=body><noscript>You need to enable JavaScript to run this app.</noscript><div id=root></div><script type=module>import{renderYogaGraphiQL as r}from\"https://unpkg.com/@graphql-yoga/graphiql@2.4.0\";r(root,__OPTS__);</script>";
+ 
+ function shouldRenderGraphiQL({ headers, method }) {
+     var _a;
+diff --git a/node_modules/@graphql-yoga/common/index.mjs b/node_modules/@graphql-yoga/common/index.mjs
+index 7258b6d..26cd3fc 100644
+--- a/node_modules/@graphql-yoga/common/index.mjs
++++ b/node_modules/@graphql-yoga/common/index.mjs
+@@ -363,7 +363,7 @@ function useHealthCheck(options) {
+     };
+ }
+ 
+-const graphiqlHTML = "<!doctype html><html lang=en><meta charset=utf-8><title>__TITLE__</title><link href=https://www.graphql-yoga.com/favicon.ico rel=icon><link href=https://unpkg.com/@graphql-yoga/graphiql/dist/style.css rel=stylesheet><body class=no-focus-outline id=body><noscript>You need to enable JavaScript to run this app.</noscript><div id=root></div><script type=module>import{renderYogaGraphiQL as r}from\"https://unpkg.com/@graphql-yoga/graphiql\";r(root,__OPTS__);</script>";
++const graphiqlHTML = "<!doctype html><html lang=en><meta charset=utf-8><title>__TITLE__</title><link href=https://www.graphql-yoga.com/favicon.ico rel=icon><link href=https://unpkg.com/@graphql-yoga/graphiql@2.4.0/dist/style.css rel=stylesheet><body class=no-focus-outline id=body><noscript>You need to enable JavaScript to run this app.</noscript><div id=root></div><script type=module>import{renderYogaGraphiQL as r}from\"https://unpkg.com/@graphql-yoga/graphiql@2.4.0\";r(root,__OPTS__);</script>";
+ 
+ function shouldRenderGraphiQL({ headers, method }) {
+     var _a;
